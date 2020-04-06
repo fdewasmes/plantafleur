@@ -1,0 +1,12 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET https://4bacebee6942d6e0aa755151709e743e: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@plantafleurdrive.myshopify.com/admin/api/2020-04/orders.json?created_at_min=2020-04-04T16:33:30+0200&fields=name,created_at
+Accept: application/json
+Content-Type: application/json
+
+###
