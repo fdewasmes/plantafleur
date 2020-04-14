@@ -53,8 +53,8 @@ def parse_orders(orders):
         o = [order['name'], date_time_obj.strftime("%d %b %Y %H:%M:%S"), order_detail]
         r_orders.append(o)
 
-    for item in r_items:
-        line = [item, r_items[item]]
+    for key in sorted(r_items.keys()):
+        line = [key, r_items[key]]
         preparation_list.append(line)
     return (preparation_list,r_orders)
 
